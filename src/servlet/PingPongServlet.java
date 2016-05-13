@@ -3,6 +3,7 @@ package servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,7 +16,7 @@ import model.Counter;
 /**
  * Servlet implementation class PingPongServlet
  */
-@WebServlet("/ping")
+@WebServlet(name = "Ping", urlPatterns = {"/ping"})
 public class PingPongServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     private static final String SESSION_COUNTER="session_counter";  
@@ -33,8 +34,12 @@ public class PingPongServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//Espace de mémoire session
 		HttpSession session = request.getSession();
-		
+		//Pour récupérer le contexte de l'application
+		ServletContext application = request.getServletContext();
+
+		//Compteur de MAJ de la session
 		Counter counterSession;
 		if(session.getAttribute(SESSION_COUNTER)==null){
 			counterSession = new Counter();
@@ -46,15 +51,15 @@ public class PingPongServlet extends HttpServlet {
 			counterSession.inc();
 		}
 		
-
+		//Compteur de mise à jour de l'application
 		Counter counterApplication;
-		if(session.getAttribute(APPLICATION_COUNTER)==null){
+		if(application.getAttribute(APPLICATION_COUNTER)==null){
 			counterApplication = new Counter();
 			counterApplication.inc();
-			session.setAttribute(APPLICATION_COUNTER, counterApplication);
+			application.setAttribute(APPLICATION_COUNTER, counterApplication);
 		}
 		else{
-			counterApplication = (Counter) session.getAttribute(APPLICATION_COUNTER);
+			counterApplication = (Counter) application.getAttribute(APPLICATION_COUNTER);
 			counterApplication.inc();
 		}
 		
