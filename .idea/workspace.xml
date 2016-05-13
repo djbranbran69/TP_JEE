@@ -2,11 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73c51e7e-04dc-40b0-9d37-b8e7f16e2bcf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/beans/UserBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/showProfile.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/aopalliance-repackaged-2.4.0-b34.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/asm-debug-all-5.0.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hk2-api-2.4.0-b34.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hk2-locator-2.4.0-b34.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hk2-utils-2.4.0-b34.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javassist-3.18.1-GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.annotation-api-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.inject-2.4.0-b34.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.servlet-api-3.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.ws.rs-api-2.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jaxb-api-2.2.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jersey-client.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jersey-common.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jersey-container-servlet-core.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jersey-container-servlet.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jersey-guava-2.22.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jersey-media-jaxb.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jersey-server.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.osgi.core-4.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/osgi-resource-locator-1.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/persistence-api-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/validation-api-1.1.0.Final.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/profile.jsp" afterPath="$PROJECT_DIR$/web/profile.jsp" />
     </list>
     <ignored path="TP_JEE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,8 +138,8 @@
       <file leaf-file-name="showProfile.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/showProfile.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -289,6 +307,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TP_JEE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP_JEE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP_JEE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP_JEE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP_JEE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP_JEE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP_JEE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP_JEE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP_JEE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -835,7 +921,7 @@
       <workItem from="1463124965259" duration="623000" />
       <workItem from="1463125738405" duration="2000" />
       <workItem from="1463126236508" duration="3272000" />
-      <workItem from="1463132618083" duration="7398000" />
+      <workItem from="1463132618083" duration="8235000" />
     </task>
     <task id="LOCAL-00001" summary="JEE avec comptes">
       <created>1463140085763</created>
@@ -858,11 +944,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463142860028</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JEE formulaire">
+      <created>1463147340540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1463147340540</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11295000" />
+    <option name="totallyTimeSpent" value="12132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="730" extended-state="6" />
@@ -915,7 +1008,8 @@
     <MESSAGE value="JEE avec comptes" />
     <MESSAGE value="JEE Login OK" />
     <MESSAGE value="JEE ajout page" />
-    <option name="LAST_COMMIT_MESSAGE" value="JEE ajout page" />
+    <MESSAGE value="JEE formulaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="JEE formulaire" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1117,8 +1211,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/showProfile.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
